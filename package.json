@@ -1,0 +1,12 @@
+{
+  "name": "unkillable",
+  "version": "1.2.0",
+  "description": "Unkillable windows processes",
+  "main": "lib.ts",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "ts-node examples/index.ts"
+  },
+  "author": "b68h4",
+  "license": "GPL"
+}
