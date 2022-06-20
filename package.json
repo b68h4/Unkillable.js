@@ -2,11 +2,18 @@
   "name": "unkillable",
   "version": "1.2.0",
   "description": "Unkillable windows processes",
-  "main": "lib.ts",
+  "main": "dist/lib.js",
+  "types": "dist/lib.d.ts",
   "scripts": {
     "build": "tsc -b",
-    "start": "ts-node examples/index.ts"
+    "test": "ts-node examples/index.ts"
   },
   "author": "b68h4",
-  "license": "GPL"
+  "license": "GPL",
+  "dependencies": {
+    "ffi-napi": "^4.0.3"
+  },
+  "devDependencies": {
+    "admin-check": "^1.1.3"
+  }
 }
